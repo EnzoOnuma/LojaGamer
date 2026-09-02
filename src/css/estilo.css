@@ -1,9 +1,9 @@
 :root{
     --color-primary:purple;
-    --bg-dark:#141414;
-    --text-color:#fff;
-    --btn-color:#00ff88;
-    --header-bg: rgba(0,0,0,0.8);
+    --bg-dark:#d3d1d1;
+    --text-color:#030303;
+    --btn-color:#8400ff;
+    --header-bg: rgba(252, 252, 252, 0.8);
     --linear-bg: linear-gradient(to right,aqua,purple);
 }
 
@@ -47,7 +47,7 @@ header{
 @keyframes acender {
     to{
         color:var(--text-color);
-        text-shadow: 0 0 10px #32f332, 0 0 20px #a8dfe1;
+        text-shadow: 0 0 10px #3f0457, 0 0 20px #a8dfe1;
     }
 }
 nav ul{
